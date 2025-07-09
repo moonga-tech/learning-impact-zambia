@@ -1,9 +1,8 @@
 @import "tailwindcss";
 
-.small-view {
+/* .small-view {
   display: none;
-}
-
+} */
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   @apply text-gray-900;
@@ -18,9 +17,9 @@ h1 {
   @apply text-2xl font-bold;
 }
 
-/* nav */
-nav li:hover {
-  @apply text-gray-500 transition-all
+/* logo */
+.logo {
+  font-size: clamp(.5rem, calc(5vw + .7rem), .9rem);
 }
 
 /* index page */
@@ -34,12 +33,14 @@ nav li:hover {
   @apply text-center text-white min-h-20;
   padding: min(20em, 8%);
 }
+
 /* mission and vision */
 .mission-vision .image:hover {
   cursor: pointer;
   transition: all 1s ease-in-out;
   transform: translateX(1.1);
 }
+
 /* join us */
 .join-us {
   padding: min(10px, 8%) min(20em, 20%);

@@ -7,12 +7,10 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       <body id="body">
-        <div className="small-view">
-          <h1>Use A Wider View</h1>
-        </div>
         <div className="main-box">
           {children}
         </div>

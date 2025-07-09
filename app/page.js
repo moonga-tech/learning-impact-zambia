@@ -5,10 +5,11 @@ import Index from "./components/index";
 import Footer from "./components/footer";
 
 export default function Home() {
+
   return (
     <>
       <Navbar />
-      <Index />
+      <Index />     
       <Footer />
     </>
   );

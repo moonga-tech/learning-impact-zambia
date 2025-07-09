@@ -1,15 +1,6 @@
-@media screen and (max-width: 850px) {
-    nav {
-        flex-wrap: wrap;
-        padding: 5px 10px;
-        text-align: center;
-    }
-    nav div {
-        margin: 0 auto;
-    }
-    nav .links {
-        flex-wrap: wrap;
-        justify-content: center;
+@media screen and (max-width: 1023px) {
+    .nav-links {
+        display: none;
     }
 }
 @media screen and (max-width: 1000px) {
@@ -21,16 +12,5 @@
     }
     .mission-vision .image-div .image {
         width: 20em;
-    }
-}
-@media screen and (max-width: 400px) {
-    .main-box {
-        display: none;
-    }
-    .small-view {
-        display: flex;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
     }
 }
